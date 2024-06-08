@@ -12,10 +12,10 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_GeneradorBufferDialogBase(object):
-    def setupUi(self, RouteNavigatorDialogBase):
-        RouteNavigatorDialogBase.setObjectName("RouteNavigatorDialogBase")
-        RouteNavigatorDialogBase.resize(423, 237)
-        self.S_groupBox = QtWidgets.QGroupBox(RouteNavigatorDialogBase)
+    def setupUi(self, GeneradorBufferDialogBase):
+        GeneradorBufferDialogBase.setObjectName("GeneradorBufferDialogBase")
+        GeneradorBufferDialogBase.resize(423, 237)
+        self.S_groupBox = QtWidgets.QGroupBox(GeneradorBufferDialogBase)
         self.S_groupBox.setGeometry(QtCore.QRect(10, 30, 251, 81))
         self.S_groupBox.setObjectName("S_groupBox")
         self.label = QtWidgets.QLabel(self.S_groupBox)
@@ -24,13 +24,13 @@ class Ui_GeneradorBufferDialogBase(object):
         self.pushButton = QtWidgets.QPushButton(self.S_groupBox)
         self.pushButton.setGeometry(QtCore.QRect(110, 40, 89, 25))
         self.pushButton.setObjectName("pushButton")
-        self.B_groupBox = QtWidgets.QGroupBox(RouteNavigatorDialogBase)
+        self.B_groupBox = QtWidgets.QGroupBox(GeneradorBufferDialogBase)
         self.B_groupBox.setGeometry(QtCore.QRect(279, 19, 131, 91))
         self.B_groupBox.setObjectName("B_groupBox")
         self.pushButton_5 = QtWidgets.QPushButton(self.B_groupBox)
         self.pushButton_5.setGeometry(QtCore.QRect(20, 50, 89, 25))
         self.pushButton_5.setObjectName("pushButton_5")
-        self.groupBox = QtWidgets.QGroupBox(RouteNavigatorDialogBase)
+        self.groupBox = QtWidgets.QGroupBox(GeneradorBufferDialogBase)
         self.groupBox.setGeometry(QtCore.QRect(10, 120, 401, 101))
         self.groupBox.setObjectName("groupBox")
         self.pushButton_2 = QtWidgets.QPushButton(self.groupBox)
@@ -43,17 +43,17 @@ class Ui_GeneradorBufferDialogBase(object):
         self.label_2.setGeometry(QtCore.QRect(10, 40, 171, 20))
         self.label_2.setObjectName("label_2")
 
-        self.retranslateUi(RouteNavigatorDialogBase)
-        QtCore.QMetaObject.connectSlotsByName(RouteNavigatorDialogBase)
+        self.retranslateUi(GeneradorBufferDialogBase)
+        QtCore.QMetaObject.connectSlotsByName(GeneradorBufferDialogBase)
 
-    def retranslateUi(self, RouteNavigatorDialogBase):
+    def retranslateUi(self, GeneradorBufferDialogBase):
         _translate = QtCore.QCoreApplication.translate
-        RouteNavigatorDialogBase.setWindowTitle(_translate("RouteNavigatorDialogBase", "Route Navigator"))
-        self.S_groupBox.setTitle(_translate("RouteNavigatorDialogBase", "Selección"))
-        self.label.setText(_translate("RouteNavigatorDialogBase", "Punto buffer:"))
-        self.pushButton.setText(_translate("RouteNavigatorDialogBase", "Pulsar"))
-        self.B_groupBox.setTitle(_translate("RouteNavigatorDialogBase", "Borrar"))
-        self.pushButton_5.setText(_translate("RouteNavigatorDialogBase", "Borrar"))
-        self.groupBox.setTitle(_translate("RouteNavigatorDialogBase", "Generación Buffer"))
-        self.pushButton_2.setText(_translate("RouteNavigatorDialogBase", "Buffer"))
-        self.label_2.setText(_translate("RouteNavigatorDialogBase", "Tamaño buffer (Area):"))
+        GeneradorBufferDialogBase.setWindowTitle(_translate("GeneradorBufferDialogBase", "Generador de Buffer"))
+        self.S_groupBox.setTitle(_translate("GeneradorBufferDialogBase", "Selección"))
+        self.label.setText(_translate("GeneradorBufferDialogBase", "Punto buffer:"))
+        self.pushButton.setText(_translate("GeneradorBufferDialogBase", "Pulsar"))
+        self.B_groupBox.setTitle(_translate("GeneradorBufferDialogBase", "Borrar"))
+        self.pushButton_5.setText(_translate("GeneradorBufferDialogBase", "Borrar"))
+        self.groupBox.setTitle(_translate("GeneradorBufferDialogBase", "Generación Buffer"))
+        self.pushButton_2.setText(_translate("GeneradorBufferDialogBase", "Buffer"))
+        self.label_2.setText(_translate("GeneradorBufferDialogBase", "Tamaño buffer (Area):"))
